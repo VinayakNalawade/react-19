@@ -1,0 +1,138 @@
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+}
+
+.heading {
+  color: #1e293b;
+}
+
+.contentContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clockSection {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clockContainer {
+  border-radius: 130px;
+  height: 130px;
+  width: 130px;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayTimer {
+  margin: 0;
+  color: #00d9f5;
+}
+
+.displayStatus {
+  margin: 0;
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.modifySection {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.startResetContainer {
+  color: #0f172a;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.startContainer {
+  display: flex;
+  align-items: center;
+}
+
+.startbutton {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 40px;
+}
+
+.startimg {
+  width: 40px;
+}
+
+.startPausetext {
+  font-weight: 700;
+}
+
+.modifySectionpara {
+  font-weight: 600;
+}
+
+.adjustingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.adjustbutton {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 28px;
+}
+
+.adjusttime {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  width: 100px;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 10px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .contentContainer {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .clockSection {
+    width: 45%;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .modifySection {
+    width: 40%;
+  }
+}
